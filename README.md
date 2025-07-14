@@ -14,8 +14,11 @@ This is a 10-part code-along project to build a console-based school attendance 
 3. Run: java -cp src com.school.Main
 
 
-## Part-02
+## Part-02: Core Domain Modelling
 
-- Created Student and Course classes
-- Managed them using arrays in `Main.java`
-- Compiled and executed successfully
+- Defined a `Student` class with `studentId`, `name`, `setDetails()`, and `displayDetails()` methods.
+- Defined a `Course` class with `courseId`, `courseName`, `setDetails()`, and `displayDetails()` methods.
+- Utilized arrays of objects in `Main.java` to manage and display multiple students and courses.
+- Demonstrated basic use of the `this` keyword for referencing instance variables.
+
+
