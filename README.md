@@ -22,3 +22,15 @@ This is a 10-part code-along project to build a console-based school attendance 
 - Demonstrated basic use of the `this` keyword for referencing instance variables.
 
 
+## Part-03: Constructor Initialization & Auto-ID Generation
+
+In this part, we:
+- Replaced `setDetails()` with constructors in `Student` and `Course` classes.
+- Implemented static counters to auto-generate unique IDs.
+- Modified the `Main.java` to use constructors and demonstrate ID generation.
+
+### How to Run:
+```bash
+javac *.java
+java Main
+
