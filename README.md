@@ -34,3 +34,17 @@ In this part, we:
 javac *.java
 java Main
 
+
+### Part 4: Encapsulation & Attendance Recording
+
+**What was done:**
+- Encapsulated fields in `Student` and `Course`
+- Created `AttendanceRecord` class with validation
+- Used `ArrayList` to maintain attendance log
+- Handled invalid statuses with appropriate warning
+- Displayed attendance records in `Main.java`
+
+**Tested and Verified Output ✅**
+- Output shows student/course data, warning, and all attendance records
+
+
