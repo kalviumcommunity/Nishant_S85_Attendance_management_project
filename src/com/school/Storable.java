@@ -1,5 +1,4 @@
 package com.school;
-
 public interface Storable {
     String toDataString(); // To convert object data to a savable string format
     // A static fromDataString would be ideal but complicates pre-Java 8.

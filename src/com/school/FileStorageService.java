@@ -10,9 +10,9 @@ public class FileStorageService {
     public void saveData(List<? extends Storable> items, String filename) {
         // Using try-with-resources for automatic closing of PrintWriter/FileWriter
         try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {  //List<? extends Storable> items → A list of objects that implement the Storable interface.
-            //✅ This ensures every object passed here knows how to convert itself into a string (via toDataString() method).
+                                                                                //✅ This ensures every object passed here knows how to convert itself into a string (via toDataString() method).
 
-            // String filename → The name of the file where data will be stored.
+                                                                                   // String filename → The name of the file where data will be stored.
             for (Storable item : items) {
                 writer.println(item.toDataString());
             }
