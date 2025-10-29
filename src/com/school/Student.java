@@ -1,5 +1,4 @@
 package com.school;
-
 public class Student extends Person implements Storable { // Extends Person
 
     private String gradeLevel; // Example new specific field

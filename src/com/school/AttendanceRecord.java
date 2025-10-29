@@ -1,5 +1,4 @@
 package com.school;
-
 public class AttendanceRecord implements Storable {
     private Student student; // Changed from studentId to Student object
     private Course course;   // Changed from courseId to Course object
@@ -23,8 +22,8 @@ public class AttendanceRecord implements Storable {
     public void displayRecord() {
         // Now we can get details directly from the objects
         System.out.println("Attendance: Student " + student.getName() + " (ID: " + student.getId() + ")" +
-                " in Course " + course.getCourseName() + " (ID: C" + course.getCourseId() + ")" +
-                " - Status: " + status);
+                           " in Course " + course.getCourseName() + " (ID: C" + course.getCourseId() + ")" +
+                           " - Status: " + status);
     }
 
     @Override

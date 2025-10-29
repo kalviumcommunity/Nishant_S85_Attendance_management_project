@@ -1,5 +1,4 @@
 package com.school;
-
 public class Course implements Storable {
     private static int nextCourseIdCounter = 101;
 
